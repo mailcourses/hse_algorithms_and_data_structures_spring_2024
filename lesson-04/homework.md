@@ -12,6 +12,20 @@
 #### Формат вывода
 Выходные данные состоят из тех же строк, что и входные, за исключением пустых и порядка следования.
 
+#### Пример
+```text
+Ввод
++7-495-1123212	n399tann9nnt3ttnaaan9nann93na9t3a3t9999na3aan9antt3tn93aat3naatt
++375-123-1234567	n399tann9nnt3ttnaaan9nann93na9t3a3t9999na3aan9antt3tn93aat3naat
++7-495-1123212	n399tann9nnt3ttnaaan9nann93na9t3a3t9999na3aan9antt3tn93aat3naa
++375-123-1234567	n399tann9nnt3ttnaaan9nann93na9t3a3t9999na3aan9antt3tn93aat3na
+Вывод
++7-495-1123212	n399tann9nnt3ttnaaan9nann93na9t3a3t9999na3aan9antt3tn93aat3naatt
++7-495-1123212	n399tann9nnt3ttnaaan9nann93na9t3a3t9999na3aan9antt3tn93aat3naa
++375-123-1234567	n399tann9nnt3ttnaaan9nann93na9t3a3t9999na3aan9antt3tn93aat3naat
++375-123-1234567	n399tann9nnt3ttnaaan9nann93na9t3a3t9999na3aan9antt3tn93aat3na
+```
+
 ### 2. Тесты в отдельном модуле
 
 ### 3. Перед отправкой на проверку код должен быть прогнан через flake8 и pylint, по желанию ещё black
